@@ -1,0 +1,102 @@
+.header{
+    background: #3498db;
+}
+.header-logo img{
+    width: 220px;
+    height: auto;
+}
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li:first-child a{
+    border-left:1px solid #ddd;
+}
+.primary-menu ul li a{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 30px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .5s;
+    border-right: 1px solid #ddd;
+}
+.primary-menu ul li a:hover{
+    background: #2980b9;
+}
+.banner{
+    background: url(./img/banner-cc-1030x515.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner-text h2{
+    background: red;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+.banner-text h1{
+    background: yellow;
+    width: 500px;
+    margin: auto;
+    padding: 10px 0;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.about-us h1{
+    
+    margin-bottom: 20px;
+}
+.service-item h2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.service-item span{
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    line-height: 60px;
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    margin-top: 25px;
+    border-radius: 20px 0 20px 0;
+}
+.blog-img img{
+    height:auto;
+    width:250px;
+}
+.notice h2{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.card li{
+    list-style: none;
+}
+.footer-text p{
+    color: white;
+    padding-top:10px;
+}
+.social-menu{}
+.social-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+}
